@@ -54,7 +54,7 @@ export function SiteShell({ children }: Readonly<{ children: React.ReactNode }>)
             className="rounded-full px-1.5 py-1 transition-colors hover:bg-primary/5"
           >
             <img
-              src="/logo_full.png"
+              src="./logo_full.png"
               alt="Sentr"
               className="h-11 w-auto object-contain"
             />
@@ -148,7 +148,7 @@ export function SiteShell({ children }: Readonly<{ children: React.ReactNode }>)
       <footer className="border-t border-border/70">
         <div className="mx-auto flex flex-col items-center justify-between gap-4 px-4 py-10 text-sm sm:flex-row sm:px-6 lg:px-8 max-w-screen-2xl">
           <div className="flex items-center gap-3">
-            <img src="/logo.png" alt="Sentr" className="h-6 w-6" />
+            <img src="./logo.png" alt="Sentr" className="h-6 w-6" />
             <div>
               <span className="font-medium">Sentr</span>
               <span className="text-muted-foreground"> - Inventory Intelligence</span>
