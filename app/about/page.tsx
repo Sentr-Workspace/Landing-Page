@@ -37,7 +37,7 @@ export default function AboutPage() {
         {/* Image Placeholder on the right */}
         <div className="rounded-3xl border bg-card p-2 sm:p-4 lg:sticky lg:top-24 shadow-sm">
           {/* More rectangled / landscape shaped */}
-          <Image src="./aboutus.jpg" alt="S and I demonstrating the Sentr system" width={1200} height={800} className="aspect-[3/2] w-full rounded-2xl object-cover border border-muted-foreground/30" />
+          <Image src="./aboutus.JPG" alt="S and I demonstrating the Sentr system" className="aspect-[3/2] w-full rounded-2xl object-cover border border-muted-foreground/30" />
         </div>
       </div>
     </div>
