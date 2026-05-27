@@ -22,17 +22,17 @@ const signals = [
 ];
 
 const challenges = [
-  "Shelf counts are slow and out of date",
-  "Teams lack a single inventory truth",
-  "Expiry and shrink risk show up too late",
-  "Restocking decisions rely on guesswork",
+  "No real-time feedback on actual shelf availability",
+  "Time-consuming, manual expiry date and stock checks",
+  "Inventory discrepancies due to shrinkage, misplacement, or theft",
+  "High personnel effort for repetitive checking processes",
 ];
 
 const solutions = [
-  "RFID reads keep shelf state current",
-  "Automations update inventory in minutes",
-  "Expiry windows and alerts arrive early",
-  "Data-driven restock guidance replaces guesswork",
+  "Real-time stock and expiry monitoring directly on the shelf",
+  "Reduction of manual checking routines and error sources",
+  "Privacy-friendly alternative to camera monitoring systems",
+  "Automated RFID detection for faster recalls and better automation",
 ];
 
 const features = [
@@ -115,16 +115,15 @@ export default function HomePage() {
           <div className="flex flex-col items-center justify-center py-24 lg:py-32 text-center">
             <div className="mb-8 flex items-center gap-2 rounded-full border bg-background/80 px-4 py-2 text-sm text-muted-foreground animate-fade-in">
               <Radio className="h-4 w-4 text-primary animate-pulse" />
-              <span className="font-medium">RFID-powered inventory intelligence</span>
+              <span className="font-medium">Next-generation supermarket inventory</span>
             </div>
 
             <h1 className="max-w-3xl text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl animate-fade-in-up">
-              Shelf visibility that stays current.
+              Automated shelf visibility for modern retail.
             </h1>
 
             <p className="mt-6 max-w-2xl text-lg text-muted-foreground leading-relaxed animate-fade-in-up animation-delay-200">
-              Sentr connects RFID hardware, automation services, and a calm operational dashboard
-              so store teams can act on inventory signals in real time.
+              Sentr eliminates manual scanning with intelligent RFID tracking. We empower supermarkets with real-time stock insights, expiry monitoring, and operational clarity.
             </p>
 
             <div className="mt-12 flex flex-wrap items-center justify-center gap-4 animate-fade-in-up animation-delay-300">
